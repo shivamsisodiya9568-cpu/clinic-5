@@ -1,0 +1,16 @@
+RK Dental Clinic - Firebase + GitHub Pages Steps
+
+1. Firebase Console me jao.
+2. Authentication -> Sign-in method -> Email/Password -> Enable -> Save.
+3. Firestore Database me test mode already on hai. Collections used:
+   - appointments
+   - contacts
+   - users
+4. GitHub par new repository banao: rk-dental-clinic
+5. Is ZIP ke andar wale files upload karo:
+   index.html, appointment.html, login.html, style.css, script.js, firebase-config.js, assets folder
+6. GitHub repo me Settings -> Pages -> Branch main -> Save.
+7. Website live hone ke baad appointment form fill karke test karo.
+8. Firebase Console -> Firestore -> appointments me data check karo.
+
+Note: server.js, routes, models, package.json Node.js backend ke liye the. GitHub Pages par unki zaroorat nahi hai.
